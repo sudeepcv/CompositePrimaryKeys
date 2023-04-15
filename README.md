@@ -10,3 +10,5 @@ In this example, the OrderDetails entity has a composite primary key made up of 
 With this setup, we can use Spring Data JPA's repository functionality to perform CRUD (create, read, update, delete) operations on the OrderDetails table. For example, we can create a repository interface like this:
 
 This repository interface allows us to perform database operations on the OrderDetails table using the standard Spring Data JPA methods, such as save(), findById(), findAll(), and delete(). We can also define custom query methods if needed.
+
+blogpost about composite primary keys using jpa:https://basics-in-java.blogspot.com/2023/04/composite-primary-keys-in-spring-boot.html
